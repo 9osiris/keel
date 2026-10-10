@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.db
+*.db-*
+*.sqlite*
+*.egg-info/
+build/
+dist/
+.venv/
+request.json
+decisions.jsonl

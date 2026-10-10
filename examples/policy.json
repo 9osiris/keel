@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "allowed_tools": ["fs.read", "search.*"],
+  "denied_tools": ["search.private"],
+  "max_spend_micros": 100000,
+  "max_call_micros": 20000,
+  "max_calls": 10,
+  "actors": [],
+  "required_args": {"fs.read": ["path"], "search.*": ["query"]}
+}
